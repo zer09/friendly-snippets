@@ -131,7 +131,7 @@
   },
   "Function Statement": {
     "prefix": "function",
-    "body": ["function ${1:name}(${2:params}:${3:type}) {", "\t$0", "}"],
+    "body": ["function ${1:name}(${2}) {", "\t$0", "}"],
     "description": "Function Statement"
   },
   "async Function Statement": {
