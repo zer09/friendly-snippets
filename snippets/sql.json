@@ -26,8 +26,8 @@
   "insert": {
     "prefix": "insert",
     "body": [
-      "INSERT INTO ${1:tableName} (${2:attribute(s)})",
-      "VALUES ( ${3:values} )"
+      "INSERT INTO ${1:tableName}(${2:attribute(s)})",
+      "VALUES (${3:values})"
     ],
     "description": "Insert value(s)"
   },
